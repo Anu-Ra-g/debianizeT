@@ -1,0 +1,7 @@
+Package: conparser
+Architecture: any
+Description: Lists all the binary packages in a debian source
+
+Package: demo_package
+Architecture: amd64
+Description: Lists all the binary packages in a debian source
