@@ -15,4 +15,4 @@ For this task, I'm using `python3-dulwich` package for profiling with *lintian-b
     ![alt text](/assets/image2.png)
 6. Ran with *strace* to figure how many file related syscalls were made.<br>
     `strace -e trace=file lintian-brush (out.log)`<br>
-7. Wrote a [jupyter notebook](/assets/strace_log.ipynb) using **pandas** to visualize the strace logs. The notebook only tracks the syscalls made within the folder where lintian-brush was called.
+7. Wrote a [jupyter notebook](/assets/strace_filepath_table.ipynb) using **pandas** to visualize the strace logs. The notebook only tracks the syscalls made within the folder where lintian-brush was called.
