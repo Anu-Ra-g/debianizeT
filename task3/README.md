@@ -6,5 +6,7 @@ These fixers are implemented as modules with the function `fn run()` as their en
 
 Some of these fixers that operate on the same files, like: 
 
-`debian/copyright`
-1. 
+`debian/copyright`<br>
+1. unversioned-copyright-format-uri
+2. copyright-has-crs
+3. copyright-refers-to-symlink-license
